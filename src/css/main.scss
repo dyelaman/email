@@ -428,6 +428,54 @@ header {
 
       .wrapper__second {
 
+        .form {
+          margin-bottom: 16px;
+
+          .list {
+            color: #919399;
+            font-size: 13px;
+            line-height: 18px;
+            margin-bottom: 2px;
+          }
+
+          input {
+            border: 1px solid rgba(0, 16, 61, 0.12);
+            border-radius: 4px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 12px;
+            width: 400px;
+
+            &::placeholder {
+              color: #919399;
+              font-size: 15px;
+              line-height: 20px;
+            }
+          }
+
+          .select {
+            border: 1px solid rgba(0, 16, 61, 0.12);
+            border-radius: 4px;
+            padding: 10px;
+            margin-right: 13px;
+
+            &.day {
+              width: 100px;
+            }
+
+            &.month {
+              width: 167px;
+            }
+
+            &.year {
+              width: 100px;
+            }
+
+            &.belt {
+              width: 400px;
+            }
+          }
+        }
       }
     }
   }
