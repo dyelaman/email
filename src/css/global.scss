@@ -29,9 +29,18 @@
 
 
     &.border {
-      border-bottom: 1px solid rgba(0, 16, 61, 0.12);
-      height: 40px;
+
+      &:after {
+        content: '';
+        display: block;
+        background: rgba(0, 16, 61, 0.12);
+        height: 1px;
+        margin-top: 8px;
+        width: 90%;
+        margin-left: 8px;
+      }
     }
+
 
     a {
       text-decoration: none;
