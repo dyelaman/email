@@ -3,7 +3,7 @@
 @import "helpers/variables";
 
 * {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Arial', sans-serif !important;
   color: #333333;
 }
 
@@ -20,15 +20,15 @@ header {
       display: flex;
 
       .item {
-        margin-right: 11px;
+        margin-right: 7px;
         display: flex;
         align-items: center;
         position: relative;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 7px;
+        padding-right: 7px;
 
         &:hover {
-          background: pink;
+          background: rgba(0, 16, 61, 0.06);
           border-radius: 10px;
         }
 
@@ -50,6 +50,7 @@ header {
           line-height: 16px;
           font-size: 11px;
           text-align: center;
+          color: #ffffff;
         }
 
         .item__image {
@@ -103,7 +104,7 @@ header {
   display: flex;
 
   .navigation {
-    padding-left: 16px;
+    padding-left: 6px;
     padding-top: 22px;
     padding-bottom: 30px;
     width: 240px;
@@ -125,9 +126,12 @@ header {
         font-size: 15px;
         line-height: 20px;
         color: #2C2D2E;
+        padding: 10px;
 
         &:hover {
-          color: #005FF9;
+          background-color: rgba(0, 16, 61, 0.08);
+          border-radius: 6px;
+
 
           &:after {
             content: '';
@@ -219,14 +223,17 @@ header {
       .sort {
         display: flex;
         justify-content: space-between;
-        border: 1px solid rgba(0, 16, 61, 0.12);
-        border-radius: 4px;
-        padding: 10px;
-        width: 200px;
 
         .list {
           font-size: 15px;
           line-height: 20px;
+
+          select {
+            border: 1px solid rgba(0, 16, 61, 0.12);
+            border-radius: 4px;
+            padding: 10px;
+            width: 200px;
+          }
         }
       }
     }
@@ -240,6 +247,7 @@ header {
         padding-top: 8px;
         padding-bottom: 8px;
         position: relative;
+        margin-bottom: 5px;
 
         &:after {
           content: '';
@@ -256,6 +264,7 @@ header {
           width: 214.5px;
           display: flex;
           align-items: center;
+          margin-right: 13px;
 
           .image {
             margin-right: 20px;
