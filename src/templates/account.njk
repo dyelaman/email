@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% include "./components/head.njk" %}
+</head>
+<body>
+{% include "./components/header.njk" %}
+<section id="base__page">
+    {% include "./components/navigation.njk" %}
+    <div class="body">
+        <div class="title">Личные данные</div>
+        <div class="wrapper">
+            <div class="wrapper__first">
+                <div class="image">
+                    <img src="../img/avatarka.png">
+                </div>
+                <div class="button">
+                    <button class="btn grey change">Изменить фото</button>
+                </div>
+                <div class="button">
+                    <button class="btn grey make">Сделать фото</button>
+                </div>
+
+            </div>
+            <div class="wrapper__second">
+
+            </div>
+
+        </div>
+    </div>
+</section>
+</body>
+</html>

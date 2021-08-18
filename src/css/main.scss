@@ -288,7 +288,7 @@ header {
 
     .wrapper {
       display: flex;
-      margin-bottom: 32px;
+      flex-wrap: wrap;
 
       .item {
         border: 1px solid rgba(0, 16, 61, 0.12);
@@ -299,6 +299,11 @@ header {
         width: 444px;
         margin-right: 32px;
         position: relative;
+        margin-bottom: 32px;
+
+        &:hover {
+          box-shadow: 0 4px 20px 0 rgb(0 16 61 / 12%);
+        }
 
         .item__title {
           font-weight: 500;
@@ -387,6 +392,42 @@ header {
             padding: 24px;
           }
         }
+      }
+    }
+  }
+}
+
+#base__page {
+  display: flex;
+
+  .body {
+    padding-top: 20px;
+    padding-left: 48px;
+
+    .title {
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 40px;
+      margin-bottom: 24px;
+    }
+
+    .wrapper {
+      display: flex;
+
+      .wrapper__first {
+        margin-right: 40px;
+
+        .image {
+          margin-bottom: 16px;
+        }
+
+        .button {
+          margin-bottom: 12px;
+        }
+      }
+
+      .wrapper__second {
+
       }
     }
   }
